@@ -1,6 +1,7 @@
 ## Requirements 
 - Node version 22+
 - Angular version 19.0.7.
+  
 
 ## Development server
 
