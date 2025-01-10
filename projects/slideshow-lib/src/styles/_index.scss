@@ -1,0 +1,7 @@
+@use './custom-style.scss';
+@use './override.scss';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+

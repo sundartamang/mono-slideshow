@@ -54,7 +54,11 @@
               }
             ],
             "styles": [
-              "projects/slideshow/src/styles.scss"
+              "projects/slideshow/src/styles.scss",
+              "projects/slideshow-lib/src/styles/_index.scss",
+              "node_modules/reveal.js/dist/reveal.css",
+              "node_modules/reveal.js/dist/theme/black.css",
+              "node_modules/reveal.js/plugin/highlight/monokai.css"
             ],
             "scripts": []
           },

@@ -1,0 +1,20 @@
+<div class="reveal p-3">
+    <div class="slides">
+        <ng-container *ngTemplateOutlet="slideShowTemplate"></ng-container>
+    </div>
+</div>
+
+<ng-template #slideShowTemplate>
+    <section data-background-color="rgb(70, 70, 255)">
+        <h1 class="text-primary-950">Slide 1</h1>
+    </section>
+    <section data-background-color="aquamarine">
+        <h1 class="text-primary-950">Slide 2</h1>
+    </section>
+    <section data-background-gradient="linear-gradient(to bottom, #283b95, #17b2c3)">
+        <h1 class="text-primary-50">
+            Slide 3
+        </h1>
+        <h2>🐳</h2>
+    </section>
+</ng-template>
