@@ -15,6 +15,11 @@
     "experimentalDecorators": true,
     "moduleResolution": "bundler",
     "importHelpers": true,
+    "paths": {
+      "slideshow-lib": [
+        "./dist/slideshow-lib"
+      ]
+    },
     "target": "ES2022",
     "module": "ES2022"
   },
